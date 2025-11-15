@@ -110,7 +110,7 @@ class Program
 
             if (userInput.ToLower() == "versiyon" || userInput.ToLower() == "version")
             {
-                Console.WriteLine($"\n📌 Gemini Asistan v9.3 - Intelligent AI Edition");
+                Console.WriteLine($"\n📌 Gemini Asistan v9.5 - Intelligent AI Edition");
                 Console.WriteLine($"📅 Tarih: 15 Kasım 2025");
                 Console.WriteLine($"🔒 Güvenlik: Aktif");
                 Console.WriteLine($"🔄 Güncelleme: Dropbox\n");

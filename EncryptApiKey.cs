@@ -15,7 +15,7 @@ class EncryptApiKey
         Console.WriteLine("=== API ANAHTAR ŞİFRELEME ARACI ===\n");
 
         // GERÇEK API ANAHTARINI BURAYA YAZ
-        string apiKey = "AIzaSyABzWxf4Lp5rwg2ZWrRaE2ZlH9ZvFw-Q7M";
+        string apiKey = "BURAYA_API_ANAHTARINI_YAZ";
 
         Console.WriteLine("Orijinal API Anahtarı:");
         Console.WriteLine(apiKey);

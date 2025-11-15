@@ -23,16 +23,20 @@ public static class SecurityHelper
     public static string GetApiKey()
     {
         // Şifreli API anahtarı (gerçek anahtarınızı şifreleyin)
-        string encrypted = "QUl6YVN5QUJ6V3hmNExwNXJ3ZzJaV3JSYUUyWmxIOVp2Rnct";
+        string encrypted = "CiwDUGFKd3l8ECFgWAdFbXMhSENgV1JdJjwSQ3ZkXgUvDj1VC15T";
         
         try
         {
-            return DecryptXOR(encrypted);
+            string key = DecryptXOR(encrypted);
+            // Yeni satır ve boşluk karakterlerini temizle
+            return key?.Trim().Replace("\r", "").Replace("\n", "") ?? "";
         }
         catch
         {
             // Hata durumunda çevre değişkeninden dene
-            return Environment.GetEnvironmentVariable("GEMINI_API_KEY") ?? "";
+            string key = Environment.GetEnvironmentVariable("GEMINI_API_KEY") ?? "";
+            // Yeni satır ve boşluk karakterlerini temizle
+            return key?.Trim().Replace("\r", "").Replace("\n", "") ?? "";
         }
     }
 
