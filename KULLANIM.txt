@@ -1,0 +1,92 @@
+╔══════════════════════════════════════════════════════════════╗
+║          GEMİNİ YAPAY ZEKA ASİSTANI - KULLANIM              ║
+║          VERSİYON 9.0 - INTELLIGENT AI EDITION              ║
+╚══════════════════════════════════════════════════════════════╝
+
+📍 EXE DOSYASI: Masaüstünde "GeminiAsistan.exe"
+
+🧠 YENİ GELİŞMİŞ ÖZELLİKLER:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ Doğal dil anlama - Farklı ifadeleri anlar
+✓ Öğrenme ve adaptasyon - Tercihlerini hatırlar
+✓ Akıllı hata yönetimi - Hataları düzeltir ve önerir
+✓ Karmaşık görev yönetimi - Çok adımlı işlemler
+✓ Kişiselleştirme - Sana özel deneyim
+✓ Güvenlik ve gizlilik - Verilerini korur
+✓ Otomatik güncelleme - Tek tıkla güncelle 🆕
+
+✅ ÖZELLİKLER:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ Bilgisayarını tam kontrol eder
+✓ Chrome ve YouTube'da arama yapar
+✓ Programları açar ve kapatır
+✓ Dosya ve klasör işlemleri (oluştur, sil, aç)
+✓ Konuşma geçmişini hatırlar - hiçbir şeyi unutmaz
+✓ Sistem bilgilerini bilir:
+  • İşlemci, RAM, Ekran Kartı
+  • Disk kapasitesi
+  • Yüklü programlar
+  • Çalışan programlar
+  • Masaüstü dosyaları
+✓ Bilgisayarı kapatır/yeniden başlatır/uyku modu
+✓ Ekran görüntüsü alır
+
+🎯 ÖRNEK KULLANIM:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROGRAM KONTROLÜ:
+Sen: chrome aç → Chrome açılır
+Sen: chromede ekmek arat → Google'da "ekmek" aratır
+Sen: youtubede minecraft ara → YouTube'da "minecraft" aratır
+Sen: notepad aç → Notepad açılır
+Sen: chrome kapat → Chrome kapatılır
+
+DOSYA İŞLEMLERİ:
+Sen: masaüstünde test.txt oluştur → Dosya oluşturur
+Sen: test.txt nin içinde ne var? → Dosya içeriğini okur
+Sen: notlar.txt oku → Dosya içeriğini gösterir
+Sen: masaüstünü aç → Masaüstü klasörü açılır
+Sen: belgelerimi aç → Belgeler klasörü açılır
+
+SİSTEM BİLGİLERİ:
+Sen: pc özellikleri nedir? → CPU, RAM, GPU bilgilerini söyler
+Sen: hangi programlar yüklü? → Yüklü programları listeler
+Sen: hangi programlar çalışıyor? → Çalışan programları gösterir
+
+SİSTEM KONTROLÜ:
+Sen: bilgisayarı kapat → 10 saniye içinde kapatır
+Sen: bilgisayarı yeniden başlat → Yeniden başlatır
+Sen: uyku moduna geç → Uyku moduna alır
+Sen: ekran görüntüsü al → Snipping Tool açar
+
+NORMAL SOHBET:
+Sen: merhaba nasılsın? → Normal sohbet yapar
+Sen: python nedir? → Python hakkında bilgi verir
+Sen: önceki konuşmamızı hatırlıyor musun? → Evet, her şeyi hatırlar!
+
+⚙️ KOMUTLAR:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+çıkış veya exit  → Programdan çık
+temizle          → Konuşma geçmişini sil
+güncelle         → Yeni versiyon kontrolü ve güncelleme 🆕
+versiyon         → Mevcut versiyon bilgisi 🆕
+
+💡 İPUÇLARI:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Doğal dille konuş, yapay zeka anlayacak
+• "chrome aç sonra youtube arat" gibi komutlar verebilirsin
+• Önceki konuşmaları hatırlar, "devam et" diyebilirsin
+• Bilgisayarındaki dosyaları biliyor
+
+🔒 GÜVENLİK:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• API anahtarı kodda gömülü
+• Hiçbir veri yerel olarak saklanmaz
+• Sadece Gemini API'ye bağlanır
+• İnternet bağlantısı gerektirir
+
+📂 DOSYA KONUMU:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+C:\Users\OyuncuBen\Desktop\GeminiAsistan.exe
+
+Çift tıkla ve kullanmaya başla! 🚀

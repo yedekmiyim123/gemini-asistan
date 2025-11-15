@@ -1,0 +1,121 @@
+╔══════════════════════════════════════════════════════════════╗
+║              YENİ ÖZELLİKLER EKLENDİ! 🚀                     ║
+║              VERSİYON 9.0 - INTELLIGENT AI                   ║
+╚══════════════════════════════════════════════════════════════╝
+
+✅ DOĞAL DİL ANLAMA: 🧠 YENİ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ Farklı ifade şekillerini anlar
+✓ "txt nin içinde ne var" = "dosyayı oku" = "içeriğini göster"
+✓ "chrome aç" = "chrome başlat" = "chrome çalıştır"
+✓ Kullanıcının ne demek istediğini tahmin eder
+
+Örnek: "test dosyasının içeriğini göster" → Dosyayı okur
+
+✅ ÖĞRENME VE ADAPTASYON: 📚 YENİ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ Hangi komutları sık kullandığını takip eder
+✓ Kullanıcının alışkanlıklarına göre öneriler sunar
+✓ Geçmiş konuşmalardan öğrenir
+✓ Tercihlerinizi hatırlar
+
+Örnek: Chrome'u sık kullanıyorsan, "tarayıcı aç" dediğinde Chrome açar
+
+✅ AKILLI HATA YÖNETİMİ: 🔧 YENİ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ Hata olduğunda açıklayıcı geri bildirim verir
+✓ Alternatif çözümler önerir
+✓ Kullanıcıyı doğru yola yönlendirir
+✓ Hata geçmişini tutar
+
+Örnek: Dosya bulunamazsa, doğru yolu önerir
+
+✅ KARMAŞIK GÖREV YÖNETİMİ: 🎯 YENİ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ Birden fazla uygulamayı koordine eder
+✓ Adımları sırayla ve mantıklı şekilde yapar
+✓ Her adımı kullanıcıya açıklar
+✓ Çok adımlı işlemleri otomatikleştirir
+
+Örnek: "Discord'da arkadaşıma mesaj at" → Discord aç, odakla, yaz, gönder
+
+✅ KİŞİSELLEŞTİRME: 👤 YENİ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ Her kullanıcıya özel deneyim sunar
+✓ Kullanıcının tercihlerini hatırlar
+✓ Sık kullanılan komutları önceliklendirir
+✓ Kullanıcının tarzına uyum sağlar
+
+✅ GÜVENLİK VE GİZLİLİK: 🔒 YENİ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ Hassas bilgileri güvenli şekilde saklar
+✓ Tehlikeli komutlar için onay ister
+✓ Kullanıcıyı potansiyel riskler konusunda uyarır
+✓ Veriler yerel olarak saklanır
+
+✅ DONANIM BİLGİLERİ:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ İşlemci (CPU) modeli ve çekirdek sayısı
+✓ RAM miktarı (GB)
+✓ Ekran kartı (GPU) modeli
+✓ Disk kapasitesi ve boş alan
+✓ Yüklü programların listesi
+✓ Çalışan programların listesi
+
+Örnek: "pc özellikleri nedir?" diye sor!
+
+✅ YOUTUBE KONTROLÜ:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ YouTube'da direkt arama yapabilir
+✓ Chrome'da değil, doğrudan YouTube'da arar
+
+Örnek: "youtubede minecraft ara"
+
+✅ PROGRAM KAPATMA:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ Çalışan programları kapatabilir
+✓ Birden fazla aynı programı kapatır
+
+Örnek: "chrome kapat", "notepad kapat"
+
+✅ DOSYA İŞLEMLERİ:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ Dosya oluşturma
+✓ Dosya okuma (txt, json, md vb.) ⭐ YENİ
+✓ Klasör oluşturma
+✓ Dosya silme
+
+Örnekler:
+- "masaüstünde test.txt oluştur"
+- "test.txt nin içinde ne var?" ⭐ YENİ
+- "notlar.txt oku" ⭐ YENİ
+- "belgelerimde yeni klasör oluştur"
+- "masaüstündeki test.txt sil"
+
+✅ SİSTEM KONTROLÜ:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ Bilgisayarı kapatma (10 saniye uyarı)
+✓ Bilgisayarı yeniden başlatma
+✓ Uyku moduna alma
+✓ Ekran görüntüsü alma
+
+Örnekler:
+- "bilgisayarı kapat"
+- "yeniden başlat"
+- "uyku moduna geç"
+- "ekran görüntüsü al"
+
+✅ AKILLI BAĞLAM FARKINDALIK:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ Bilgisayarının tüm özelliklerini biliyor
+✓ Hangi programların yüklü olduğunu biliyor
+✓ Hangi programların çalıştığını biliyor
+✓ Masaüstündeki dosyaları biliyor
+
+Artık "chrome yüklü mü?" diye sorabilirsin!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📍 GÜNCEL EXE: C:\Users\OyuncuBen\Desktop\GeminiAsistan.exe
+
+Hemen dene! 🎉

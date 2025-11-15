@@ -1,0 +1,206 @@
+╔══════════════════════════════════════════════════════════════╗
+║          YENİ VERSİYON YAYINLAMA REHBERİ                    ║
+╚══════════════════════════════════════════════════════════════╝
+
+🚀 5 DAKİKADA YENİ VERSİYON YAYINLA!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ADIM 1: VERSİYON NUMARASINI ARTIR (30 saniye)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. UpdateManager.cs'i aç
+2. Bu satırı bul:
+   private const string CURRENT_VERSION = "9.0";
+3. Versiyon numarasını artır:
+   private const string CURRENT_VERSION = "9.1";
+
+✓ Versiyon numarası güncellendi!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ADIM 2: version.json GÜNCELLE (1 dakika)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. version.json'u aç
+2. Güncelle:
+
+{
+  "version": "9.1",
+  "release_date": "2025-11-20",
+  "download_url": "https://github.com/USER/repo/releases/download/v9.1/GeminiAsistan.exe",
+  "features": [
+    "Yeni özellik 1",
+    "Yeni özellik 2"
+  ],
+  "bug_fixes": [
+    "Bug fix 1",
+    "Bug fix 2"
+  ],
+  "is_critical": false
+}
+
+✓ version.json güncellendi!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ADIM 3: BUILD (1 dakika)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. BUILD_VE_KORUMA.bat'ı çalıştır
+   VEYA
+   dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
+
+✓ EXE oluşturuldu!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ADIM 4: CONFUSEREX (1.5 dakika)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. ConfuserEx'i aç
+2. EXE'yi sürükle-bırak
+3. Protect
+
+✓ Kod korumalı!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ADIM 5: GITHUB'A YÜKLE (1.5 dakika)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+YÖNTEM A: MANUEL (Kolay)
+─────────────────────────
+
+1. GitHub'a git:
+   https://github.com/KULLANICI_ADIN/gemini-asistan/releases/new
+
+2. Tag oluştur:
+   Tag: v9.1
+   Title: Gemini Asistan v9.1
+
+3. Açıklama yaz:
+   ## Yenilikler
+   - Yeni özellik 1
+   - Yeni özellik 2
+   
+   ## Düzeltmeler
+   - Bug fix 1
+   - Bug fix 2
+
+4. EXE'yi yükle:
+   Confused\GeminiAsistan.exe
+
+5. "Publish release" butonuna bas
+
+YÖNTEM B: OTOMATİK (GitHub Actions)
+────────────────────────────────────
+
+1. Terminal'de:
+   git tag v9.1
+   git push origin v9.1
+
+2. GitHub Actions otomatik çalışır!
+
+✓ Release yayınlandı!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ADIM 6: version.json'u PUSH ET (30 saniye)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Terminal'de:
+   git add version.json
+   git commit -m "Update to v9.1"
+   git push
+
+✓ version.json güncellendi!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ADIM 7: TEST ET (30 saniye)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Eski versiyonu aç
+2. "güncelle" yaz
+3. Yeni versiyonu kontrol et
+4. Özellikleri test et
+
+✓ Test tamamlandı!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎉 TAMAMLANDI!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Yeni versiyon yayınlandı! 🚀
+
+Kullanıcılar artık:
+1. Program açtığında bildirim görecek
+2. "güncelle" yazarak güncelleyebilecek
+3. Tek tıkla yeni versiyona geçecek
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 CHECKLIST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Yayınlamadan önce kontrol et:
+
+[ ] UpdateManager.cs'de versiyon numarası güncellendi
+[ ] version.json güncellendi
+[ ] Build yapıldı
+[ ] ConfuserEx uygulandı
+[ ] GitHub'da release oluşturuldu
+[ ] EXE yüklendi
+[ ] version.json push edildi
+[ ] Test edildi
+[ ] Changelog yazıldı
+[ ] Kullanıcılara duyuruldu
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 İPUÇLARI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. VERSİYON NUMARALARI:
+   9.0.0 → İlk release
+   9.1.0 → Yeni özellikler
+   9.1.1 → Bug fix
+   10.0.0 → Büyük değişiklikler
+
+2. RELEASE SIKLIĞI:
+   - Küçük güncellemeler: Haftalık
+   - Orta güncellemeler: Aylık
+   - Büyük güncellemeler: 3-6 ayda bir
+
+3. CHANGELOG:
+   Her zaman detaylı changelog yaz!
+   Kullanıcılar ne değiştiğini bilmek ister.
+
+4. TEST:
+   Mutlaka test et!
+   Bozuk güncelleme kullanıcıları üzer.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️ UYARILAR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Versiyon numarasını unutma!
+2. version.json'u push etmeyi unutma!
+3. Test etmeyi unutma!
+4. Changelog yazmayı unutma!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📞 SORUN MU YAŞIYORSUN?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+GÜNCELLEME_SİSTEMİ.md dosyasını oku!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 BAŞARILAR!
+
+Yeni versiyonun hayırlı olsun! 🎊

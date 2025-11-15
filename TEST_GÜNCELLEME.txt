@@ -1,0 +1,226 @@
+╔══════════════════════════════════════════════════════════════╗
+║          GÜNCELLEME SİSTEMİ TEST REHBERİ                    ║
+╚══════════════════════════════════════════════════════════════╝
+
+✅ GOOGLE DRIVE LİNKİ AYARLANDI!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 MEVCUT AYARLAR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+version.json:
+{
+  "version": "9.0",
+  "download_url": "https://drive.google.com/uc?export=download&id=1WPlTApFE_SsaOkqNl6ynokmQL5IREhdl"
+}
+
+Google Drive Dosya ID: 1WPlTApFE_SsaOkqNl6ynokmQL5IREhdl
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🧪 TEST ADIMLARI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ADIM 1: GOOGLE DRIVE AYARLARINI KONTROL ET
+───────────────────────────────────────────
+
+1. drive.google.com'a git
+2. GeminiAsistan.exe dosyasını bul
+3. Sağ tık → Paylaş
+4. "Bağlantısı olan herkes" seçili mi kontrol et
+5. Erişim: "Görüntüleyici" olmalı
+
+⚠️ ÖNEMLİ: Dosya herkese açık olmalı!
+
+ADIM 2: İNDİRME LİNKİNİ TEST ET
+───────────────────────────────
+
+Tarayıcıda bu linki aç:
+https://drive.google.com/uc?export=download&id=1WPlTApFE_SsaOkqNl6ynokmQL5IREhdl
+
+Beklenen: Dosya indirmeye başlamalı
+
+✅ İndirme başladı → Devam et
+❌ Hata aldın → Google Drive ayarlarını kontrol et
+
+ADIM 3: version.json'u GITHUB'A YÜKLE
+──────────────────────────────────────
+
+Terminal'de:
+
+git add version.json
+git commit -m "Add Google Drive download URL"
+git push
+
+⚠️ ÖNEMLİ: UpdateManager.cs'de GitHub repo adını güncelle!
+
+UpdateManager.cs içinde:
+private const string UPDATE_CHECK_URL = 
+    "https://raw.githubusercontent.com/SENIN_KULLANICI_ADIN/gemini-asistan/main/version.json";
+
+ADIM 4: version.json ERİŞİMİNİ TEST ET
+──────────────────────────────────────
+
+Tarayıcıda bu linki aç (kendi repo adınla):
+https://raw.githubusercontent.com/SENIN_KULLANICI_ADIN/gemini-asistan/main/version.json
+
+Beklenen: JSON içeriği görünmeli
+
+✅ JSON görünüyor → Devam et
+❌ 404 hatası → GitHub'a push ettin mi kontrol et
+
+ADIM 5: PROGRAMI TEST ET
+─────────────────────────
+
+1. Programı aç
+2. "versiyon" yaz → Mevcut versiyon: 9.0
+3. "güncelle" yaz
+4. Ne diyor?
+
+BEKLENEN SONUÇLAR:
+
+A) Aynı versiyonsa:
+   "✓ Zaten en son versiyonu kullanıyorsunuz!"
+
+B) Yeni versiyon varsa:
+   "YENİ GÜNCELLEME MEVCUT!"
+   (Ama şu an 9.0 → 9.0 olduğu için A olmalı)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 YENİ VERSİYON TEST ET (9.1)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Güncelleme sistemini test etmek için:
+
+ADIM 1: version.json'u Güncelle
+────────────────────────────────
+
+{
+  "version": "9.1",  ← Bunu değiştir
+  "release_date": "2025-11-15",
+  "download_url": "https://drive.google.com/uc?export=download&id=1WPlTApFE_SsaOkqNl6ynokmQL5IREhdl",
+  "features": [
+    "Test güncelleme"
+  ]
+}
+
+ADIM 2: GitHub'a Push Et
+────────────────────────
+
+git add version.json
+git commit -m "Test update to v9.1"
+git push
+
+ADIM 3: Programı Test Et
+─────────────────────────
+
+1. Programı aç (v9.0)
+2. "güncelle" yaz
+3. Şunu görmeli:
+
+╔══════════════════════════════════════════════════════════════╗
+║                  YENİ GÜNCELLEME MEVCUT! 🎉                  ║
+╚══════════════════════════════════════════════════════════════╝
+
+📌 Mevcut Versiyon: 9.0
+🆕 Yeni Versiyon: 9.1
+
+Güncellemek istiyor musunuz? (E/H): e
+
+4. "e" yaz
+5. İndirme başlamalı
+6. Program yeniden başlamalı
+
+✅ Çalıştı → Güncelleme sistemi hazır!
+❌ Hata aldı → Aşağıdaki sorun gidermeye bak
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️ SORUN GİDERME
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SORUN 1: "Güncelleme kontrol edilemiyor"
+────────────────────────────────────────
+
+Sebep: İnternet yok veya GitHub erişilemiyor
+
+Çözüm:
+1. İnternet bağlantısını kontrol et
+2. GitHub'a erişebildiğini kontrol et
+3. version.json URL'ini kontrol et
+
+SORUN 2: "İndirme linki bulunamadı"
+───────────────────────────────────
+
+Sebep: version.json'da download_url yok veya yanlış
+
+Çözüm:
+1. version.json'u kontrol et
+2. download_url var mı?
+3. URL doğru mu?
+
+SORUN 3: "İndirme başarısız"
+────────────────────────────
+
+Sebep: Google Drive dosyası herkese açık değil
+
+Çözüm:
+1. Google Drive'da dosyayı bul
+2. Sağ tık → Paylaş
+3. "Bağlantısı olan herkes" seç
+4. Kaydet
+
+SORUN 4: "Dosya bütünlüğü bozuk"
+────────────────────────────────
+
+Sebep: İndirilen dosya bozuk
+
+Çözüm:
+1. Google Drive'daki dosyayı kontrol et
+2. Dosya doğru mu?
+3. Tekrar yükle
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ CHECKLIST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Test öncesi kontrol et:
+
+[ ] Google Drive dosyası herkese açık
+[ ] version.json'da doğru download_url var
+[ ] version.json GitHub'a push edildi
+[ ] UpdateManager.cs'de doğru GitHub repo adı var
+[ ] Program derlenmiş ve çalışıyor
+[ ] İnternet bağlantısı var
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 NOTLAR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Google Drive'da dosyayı güncellerken:
+   - Aynı dosyayı güncelle (link değişmez)
+   - VEYA eski dosyayı sil, yenisini yükle (aynı isimle)
+
+2. Her yeni versiyonda:
+   - UpdateManager.cs'de CURRENT_VERSION'u artır
+   - version.json'da version'u artır
+   - Google Drive'daki EXE'yi güncelle
+   - Git push
+
+3. Test için:
+   - Önce version.json'u 9.1 yap
+   - Test et
+   - Sonra geri 9.0 yap
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎉 BAŞARILAR!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Güncelleme sistemi hazır! 🚀
+
+Artık kullanıcılar tek tıkla güncelleyebilir!

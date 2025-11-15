@@ -1,0 +1,21 @@
+{
+  "version": "9.1",
+  "release_date": "2025-11-15",
+  "download_url": "https://drive.google.com/uc?export=download&id=1WPlTApFE_SsaOkqNl6ynokmQL5IREhdl",
+  "features": [
+    "Doğal dil anlama sistemi",
+    "Öğrenme ve adaptasyon",
+    "Akıllı hata yönetimi",
+    "Karmaşık görev yönetimi",
+    "Kişiselleştirme özellikleri",
+    "Güvenlik ve gizlilik iyileştirmeleri",
+    "Dosya okuma özelliği",
+    "Otomatik güncelleme sistemi"
+  ],
+  "bug_fixes": [
+    "Discord açılma sorunu düzeltildi",
+    "Dosya yolu hataları giderildi",
+    "Performans iyileştirmeleri"
+  ],
+  "is_critical": false
+}
