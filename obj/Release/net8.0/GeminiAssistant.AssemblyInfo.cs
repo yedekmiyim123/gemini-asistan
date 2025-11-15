@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GeminiAssistant")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05fe47d5618ab621c594c1b0cbfa6cdd7c278049")]
 [assembly: System.Reflection.AssemblyProductAttribute("GeminiAssistant")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GeminiAssistant")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

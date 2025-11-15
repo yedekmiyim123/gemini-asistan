@@ -1,21 +1,23 @@
 {
-  "version": "9.1",
+  "version": "9.3",
   "release_date": "2025-11-15",
   "download_url": "https://www.dropbox.com/scl/fi/h6q3r8r4zjdlgzkp611wu/GeminiAssistant.exe?rlkey=14usj5zd7kf8hvocjflt55ke3&st=b25q1bxh&dl=1",
   "features": [
-    "Doğal dil anlama sistemi",
-    "Öğrenme ve adaptasyon",
-    "Akıllı hata yönetimi",
-    "Karmaşık görev yönetimi",
-    "Kişiselleştirme özellikleri",
-    "Güvenlik ve gizlilik iyileştirmeleri",
-    "Dosya okuma özelliği",
-    "Otomatik güncelleme sistemi"
+    "🚀 Dropbox entegrasyonu - Güvenilir güncelleme sistemi",
+    "🧠 Doğal dil anlama - Farklı ifadeleri anlar",
+    "📚 Öğrenme ve adaptasyon - Tercihlerini hatırlar",
+    "🔧 Akıllı hata yönetimi - Otomatik düzeltme",
+    "🎯 Karmaşık görev yönetimi - Çok adımlı işlemler",
+    "👤 Kişiselleştirme - Sana özel deneyim",
+    "🔒 Güvenlik - API şifreleme, anti-debug",
+    "📄 Dosya okuma - TXT, JSON, MD desteği",
+    "🔄 Otomatik güncelleme - Tek tıkla güncelle"
   ],
   "bug_fixes": [
-    "Discord açılma sorunu düzeltildi",
-    "Dosya yolu hataları giderildi",
-    "Performans iyileştirmeleri"
+    "Güncelleme sistemi Dropbox'a taşındı",
+    "Dosya indirme sorunları düzeltildi",
+    "Yeniden başlatma mekanizması iyileştirildi",
+    "Performans optimizasyonları"
   ],
   "is_critical": false
 }

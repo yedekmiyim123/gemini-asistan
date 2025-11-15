@@ -2,6 +2,7 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
@@ -11,14 +12,14 @@ using Newtonsoft.Json;
 public class UpdateManager
 {
     // version.json konumu (GitHub'da - sadece bu dosya repo'da)
-    private const string UPDATE_CHECK_URL = "https://raw.githubusercontent.com/KULLANICI_ADIN/gemini-asistan/main/version.json";
+    private const string UPDATE_CHECK_URL = "https://raw.githubusercontent.com/yedekmiyim123/gemini-asistan/main/version.json";
     
     // NOT: DOWNLOAD_URL artık version.json'dan okunuyor!
     // EXE'yi GitHub Releases, Google Drive, Dropbox veya kendi sunucuna yükle
     // version.json'da download_url'i güncelle
     
     // Mevcut versiyon
-    private const string CURRENT_VERSION = "9.1";
+    private const string CURRENT_VERSION = "9.3";
     
     /// <summary>
     /// Güncelleme kontrolü yap
@@ -109,33 +110,41 @@ public class UpdateManager
             
             // Batch script oluştur (kendini güncellemek için)
             string batchScript = $@"@echo off
+chcp 65001 >nul
 timeout /t 2 /nobreak >nul
 echo Eski versiyon yedekleniyor...
-move /y ""{currentExe}"" ""{backupExe}""
+if exist ""{currentExe}"" (
+    if exist ""{backupExe}"" del ""{backupExe}""
+    move /y ""{currentExe}"" ""{backupExe}""
+)
 echo Yeni versiyon kuruluyor...
 move /y ""{tempFile}"" ""{currentExe}""
 echo Güncelleme tamamlandı!
 echo Program yeniden başlatılıyor...
-timeout /t 2 /nobreak >nul
+timeout /t 1 /nobreak >nul
 start """" ""{currentExe}""
+timeout /t 2 /nobreak >nul
 del ""%~f0""
 ";
             
             string batchFile = Path.Combine(Path.GetTempPath(), "update.bat");
-            File.WriteAllText(batchFile, batchScript);
+            File.WriteAllText(batchFile, batchScript, Encoding.UTF8);
             
             // Batch'i çalıştır ve programı kapat
             Process.Start(new ProcessStartInfo
             {
-                FileName = batchFile,
-                CreateNoWindow = true,
-                UseShellExecute = false
+                FileName = "cmd.exe",
+                Arguments = $"/c \"{batchFile}\"",
+                CreateNoWindow = false,
+                UseShellExecute = true,
+                WindowStyle = ProcessWindowStyle.Normal
             });
             
             Console.WriteLine("✓ Güncelleme başlatıldı!");
             Console.WriteLine("Program yeniden başlatılacak...\n");
+            Console.WriteLine("Lütfen bekleyin...");
             
-            await Task.Delay(2000);
+            await Task.Delay(1000);
             Environment.Exit(0);
             
             return true;

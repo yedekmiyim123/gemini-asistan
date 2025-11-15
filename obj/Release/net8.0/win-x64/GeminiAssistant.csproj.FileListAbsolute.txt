@@ -199,3 +199,4 @@ C:\Users\OyuncuBen\Desktop\uytgulama\obj\Release\net8.0\win-x64\refint\GeminiAss
 C:\Users\OyuncuBen\Desktop\uytgulama\obj\Release\net8.0\win-x64\GeminiAssistant.pdb
 C:\Users\OyuncuBen\Desktop\uytgulama\obj\Release\net8.0\win-x64\GeminiAssistant.genruntimeconfig.cache
 C:\Users\OyuncuBen\Desktop\uytgulama\obj\Release\net8.0\win-x64\ref\GeminiAssistant.dll
+C:\Users\OyuncuBen\Desktop\uytgulama\obj\Release\net8.0\win-x64\GeminiAssistant.sourcelink.json

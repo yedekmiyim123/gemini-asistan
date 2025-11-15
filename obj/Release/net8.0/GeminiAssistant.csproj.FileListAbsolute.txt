@@ -18,3 +18,4 @@ C:\Users\OyuncuBen\Desktop\uytgulama\obj\Release\net8.0\refint\GeminiAssistant.d
 C:\Users\OyuncuBen\Desktop\uytgulama\obj\Release\net8.0\GeminiAssistant.pdb
 C:\Users\OyuncuBen\Desktop\uytgulama\obj\Release\net8.0\GeminiAssistant.genruntimeconfig.cache
 C:\Users\OyuncuBen\Desktop\uytgulama\obj\Release\net8.0\ref\GeminiAssistant.dll
+C:\Users\OyuncuBen\Desktop\uytgulama\obj\Release\net8.0\GeminiAssistant.sourcelink.json
