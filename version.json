@@ -1,13 +1,14 @@
 {
-  "version": "9.5",
+  "version": "9.6.0",
   "release_date": "2025-11-15",
-  "download_url": "https://www.dropbox.com/scl/fi/t0311s9f94bw0mfv6g3cn/GeminiAssistant.exe?rlkey=47eaqkgdue56crkeo3e76cpoa&st=q42baz7a&dl=1",
+  "download_url": "https://www.dropbox.com/scl/fi/cx1yyc6tr1xfrfgi44kbj/GeminiAssistant.exe?rlkey=zzwo8ttkmwinvljov81s70wm4&st=xhdkjvu4&dl=1",
   "features": [
-    "ultra mega sistem"
+    "BETA AŞAMASINDA PC KONTROL SİSTEM"
 
   ],
   "bug_fixes": [
-    "Api hatası düzeltildi"
+    "Api hatası düzeltildi",
+    "Güncelleme düzeltildi"
 
   ],
   "is_critical": false

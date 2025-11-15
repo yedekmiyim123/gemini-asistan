@@ -19,7 +19,7 @@ public class UpdateManager
     // version.json'da download_url'i güncelle
     
     // Mevcut versiyon
-    private const string CURRENT_VERSION = "9.5";
+    private const string CURRENT_VERSION = "9.6.0";
     
     /// <summary>
     /// Güncelleme kontrolü yap

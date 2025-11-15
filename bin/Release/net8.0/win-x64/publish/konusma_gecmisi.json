@@ -1,0 +1,42 @@
+[
+  {
+    "Role": "user",
+    "Text": "selma"
+  },
+  {
+    "Role": "model",
+    "Text": "Anlamadım."
+  },
+  {
+    "Role": "user",
+    "Text": "selam"
+  },
+  {
+    "Role": "model",
+    "Text": "Merhaba! Nasıl yardımcı olabilirim?\n"
+  },
+  {
+    "Role": "user",
+    "Text": "nasılsın"
+  },
+  {
+    "Role": "model",
+    "Text": "Ben iyiyim, teşekkürler. Siz nasılsınız?\n"
+  },
+  {
+    "Role": "user",
+    "Text": "iyiyim bende"
+  },
+  {
+    "Role": "model",
+    "Text": "Sevindim. Bugün size nasıl yardımcı olabilirim?\n"
+  },
+  {
+    "Role": "user",
+    "Text": "discordu aç"
+  },
+  {
+    "Role": "model",
+    "Text": "[KOMUT:PROGRAM:discord]\n"
+  }
+]

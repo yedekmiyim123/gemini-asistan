@@ -1,2 +1,1 @@
-C:\Users\OyuncuBen\Desktop\uytgulama\bin\Release\net8.0\win-x64\publish\GeminiAssistant.pdb
 C:\Users\OyuncuBen\Desktop\uytgulama\bin\Release\net8.0\win-x64\publish\GeminiAssistant.exe
